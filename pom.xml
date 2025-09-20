@@ -4,9 +4,8 @@
   <parent>
     <groupId>tools.jackson</groupId>
     <artifactId>jackson-base</artifactId>
-    <version>3.0.0-rc10</version>
+    <version>3.0.0-rc11-SNAPSHOT</version>
   </parent>
-
   <groupId>tools.jackson.jaxrs</groupId>
   <artifactId>jackson-jaxrs-providers</artifactId>
   <name>Jackson JAX-RS (parent)</name>
