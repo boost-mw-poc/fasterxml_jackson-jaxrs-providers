@@ -10,6 +10,7 @@ Sub-modules:
 === Releases ===
 ------------------------------------------------------------------------
 
+2.19.3 (29-Oct-2025)
 2.19.2 (18-Jul-2025)
 
 - `UTF8JsonGenerator` copies the static singleton of DEFAULT_PRETTY_PRINTER,
