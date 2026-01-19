@@ -11,7 +11,6 @@ import java.util.Optional;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.MultivaluedHashMap;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
@@ -67,7 +66,6 @@ public class TestIssue189ConfigSettings
             "    ]\n" +
             "}";
 
-    @Disabled("fix only in 3.1+")
     @Test
     public void should_deserialize_illegal_reference_when_configured_leniently() throws Exception {
         final ObjectMapper objectMapper = JsonMapper.builder()
@@ -98,7 +96,6 @@ public class TestIssue189ConfigSettings
         }
     }
 
-    @Disabled("fix only in 3.1+")
     @Test
     public void should_honor_mapper_configuration_with_provider() throws Exception {
         // Setup for JAX-RS provider usage
@@ -133,7 +130,6 @@ public class TestIssue189ConfigSettings
         }
     }
 
-    @Disabled("fix only in 3.1+")
     @Test
     public void should_honor_lenient_mapper_configuration_with_provider() throws Exception {
         // Setup for JAX-RS provider usage
