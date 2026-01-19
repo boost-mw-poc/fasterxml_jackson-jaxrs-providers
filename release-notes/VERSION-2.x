@@ -10,7 +10,7 @@ Sub-modules:
 === Releases ===
 ------------------------------------------------------------------------
 
-2.21.0 (not yet released)
+2.21.0 (18-Jan-2026)
 
 #189: `JacksonJsonProvider` ignores `DeserializationFeature.FAIL_ON_UNRESOLVED_OBJECT_IDS`
  (reported by Nicolas L)

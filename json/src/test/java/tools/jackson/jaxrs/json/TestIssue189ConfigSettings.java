@@ -81,7 +81,7 @@ public class TestIssue189ConfigSettings {
 
     @Test
     public void should_reject_illegal_reference_by_default() throws Exception {
-        final ObjectMapper objectMapper = new ObjectMapper();
+        final JsonMapper objectMapper = new JsonMapper();
 
         // By default, should throw exception on unresolved object IDs
         // Let's actually try to read it and see what happens
