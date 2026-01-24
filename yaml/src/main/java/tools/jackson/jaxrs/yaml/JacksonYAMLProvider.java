@@ -16,6 +16,7 @@ import tools.jackson.databind.ObjectWriter;
 
 import tools.jackson.dataformat.yaml.YAMLMapper;
 import tools.jackson.jaxrs.base.ProviderBase;
+import tools.jackson.jaxrs.cfg.JaxRSFeature;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.Produces;
@@ -163,10 +164,9 @@ public class JacksonYAMLProvider
             return "yaml".equalsIgnoreCase(subtype) || subtype.endsWith("+yaml");
             //tarik: apparently there is not a standard for yaml types, should be discussed
         }
-        /* Not sure if this can happen; but it seems reasonable
-         * that we can at least produce yaml without media type?
-         */
-        return true;
+        // [jaxrs-providers#162]: Without a media type, may or may not match
+        // (if not, let JAX-RS deal with mapping if it can)
+        return isEnabled(JaxRSFeature.MATCH_ALL_IF_NO_MEDIA_TYPE);
     }
 
     /**
