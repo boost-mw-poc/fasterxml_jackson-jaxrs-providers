@@ -15,6 +15,7 @@ Sub-modules:
 #189: `JacksonJsonProvider` ignores `DeserializationFeature.FAIL_ON_UNRESOLVED_OBJECT_IDS`
  (reported by Nicolas L)
 
+2.20.2 (19-Jan-2026)
 2.20.1 (30-Oct-2025)
 
 No changes since 2.20.0
@@ -43,6 +44,7 @@ No changes since 2.20.0
  (contributed by @motlin)
 * Woodstox dependency now 7.1.0
 
+2.18.6 (22-Feb-2026)
 2.18.5 (27-Oct-2025)
 2.18.4 (06-May-2025)
 2.18.3 (28-Feb-2025)
