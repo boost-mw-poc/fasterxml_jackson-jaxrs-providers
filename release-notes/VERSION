@@ -11,7 +11,7 @@ Sub-modules:
 === Releases ===
 ------------------------------------------------------------------------
 
-3.1.0-rc1 (27-Jan-2026)
+3.1.0 (23-Feb-2026)
 
 #162: Fix errant “accept anything” handling of providers
  (requested by Kevin W)
