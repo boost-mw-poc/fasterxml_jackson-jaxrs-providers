@@ -10,6 +10,8 @@ Sub-modules:
 === Releases ===
 ------------------------------------------------------------------------
 
+2.21.3 (28-Apr-2026)
+2.21.2 (20-Mar-2026)
 2.21.1 (22-Feb-2026)
 
 No changes since 2.21.0
@@ -48,6 +50,7 @@ No changes since 2.20.0
  (contributed by @motlin)
 * Woodstox dependency now 7.1.0
 
+2.18.7 (24-Apr-2026)
 2.18.6 (22-Feb-2026)
 2.18.5 (27-Oct-2025)
 2.18.4 (06-May-2025)
